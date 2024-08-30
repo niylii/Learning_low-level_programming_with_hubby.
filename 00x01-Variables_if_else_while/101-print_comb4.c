@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - entry point of the program.
-* Return : always 0 (Success)
+* combo_3 - prints combination of three digits.
+* Return : the function performs its task (printing combinations)
 */
 
-int	main(void)
+void	combo_3(void)
 {
 	int	i;
 	int	j;
@@ -34,6 +34,16 @@ int	main(void)
 		}
 		i++;
 	}
+}
+
+/**
+* main - entry point for the program.
+* Return : always 0 (success)
+*/
+
+int	main(void)
+{
+	combo_3();
 	putchar('\n');
 	return (0);
 }
