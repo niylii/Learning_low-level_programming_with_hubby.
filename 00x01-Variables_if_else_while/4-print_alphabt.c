@@ -2,20 +2,19 @@
 
 /**
 * main - entry point of the program.
-* Return : always 0 (success)
+* Return : always 0 (Success)
 */
 
-int	main()
+int	main(void)
 {
 	char	c;
-	
-	for (c = 'a' ; c <= 'z' ; c++)
+
+	c = 'a';
+	while (c <= 'z')
 	{
-		if (c != 'q' && c != 'e')
-			putchar(c);
-		
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
 }
-
