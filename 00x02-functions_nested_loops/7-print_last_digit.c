@@ -3,15 +3,17 @@
 /**
 * print_last_digit - prints the last digit of a number.
 * @n : the number 
-*
+* @ld : last digit  
+* @abs : absolute value of the last digit
+* 
 * return : last digit of n.
 */
 
 int	print_last_digit(int n)
 {
-	int	ld;/*last digit*/
-	int	abs;/*absolute value of the last digit*/ 
-	
+	int	ld;
+	int	abs;
+
 	ld = n % 10;
 	abs = ld * (-1);
 	if (n >= 0)
