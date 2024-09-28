@@ -12,22 +12,22 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	char *a;
+	char *aa;
 
 	while (*s)
 	{
-		a = accept;
-		while (*a)
+		aa = accept;
+		while (*aa)
 		{
-			if (*s == *a)
+			if (*s == *aa)
 			{
 				return (s);
 			}
-			a++;
+			aa++;
 		}
 		s++;
 	}
-	if (*a == '\0')
+	if (*aa == '\0')
 		return (s);
 	return (NULL);
 }
