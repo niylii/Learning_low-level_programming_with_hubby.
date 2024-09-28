@@ -31,7 +31,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int len1 = len(n1);
 	int len2 = len(n2);
-	int overf = 0, sum, i;
+	int ovf = 0, sum, i;
 	int pos1 = len1 - 1;
 	int pos2 = len2 - 1;
 
@@ -43,16 +43,16 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	while (i >= 0 && (pos1 >= 0 || pos2 >= 0 || overf))
 	{
-		sum = overf;
+		sum = ovf;
 		if (pos1 >= 0)
 			sum += n1[pos1--] - '0';
 		if (pos2 >= 0)
 			sum += n2[pos2--] - '0';
-		overf = sum / 10;
+		ovf = sum / 10;
 		r[i] = sum % 10 + '0';
 		i--;
 	}
-	if (overf && i < 0)
+	if (ovf && i < 0)
 		return (0);
 	return (r + i + 1);
 }
