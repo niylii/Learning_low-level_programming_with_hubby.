@@ -1,4 +1,4 @@
-#More functions and nested loops 
+# More functions and nested loops 
 
 This repository builds upon the concepts introduced in the previous one (00x02), focusing on functions and nested loops in greater depth to enhance understanding and application of these key programming principles.
 
@@ -15,8 +15,7 @@ This repository builds upon the concepts introduced in the previous one (00x02),
 | 8-print_square.c       | Prints a square.                                                                                                   |
 | 9-fizz_buzz.c          | Prints the numbers from 1 to 100. For multiples of three print "Fizz," for multiples of five print "Buzz," and for numbers which are multiples of both, print "FizzBuzz." |
 | 10-print_triangle.c     | Prints a triangle.                                                                                                 |
-| 100-prime_factor.c     | Prints the largest prime factor of the number 612852475143.                                                       |
-| 101-print_number.c      | Prints an integer.                                                                                                |
+| 100-prime_factor.c     | Prints the largest prime factor of the number 612852475143.                                                       |                                                                                               |
 | main.h                 | The header file.                                                                                                   |
 
 
