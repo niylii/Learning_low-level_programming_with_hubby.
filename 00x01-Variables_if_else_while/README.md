@@ -1,4 +1,4 @@
-## Fundamentals of C Programming
+# Fundamentals of C Programming
 
 This repository covers the essentials of the C programming language, providing the foundational understanding necessary for writing efficient code. Key topics include:
 
