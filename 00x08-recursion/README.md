@@ -1,6 +1,6 @@
 # RECURSION
 
-This repository takes recursion a bit more seriously. It is a programming technique where a function calls itself to solve a problem, breaking it down into smaller subproblems.
+This repository takes recursion a bit more seriously. which is basically a programming technique where a function calls itself to solve a problem, breaking it down into smaller subproblems.
 
 ### Key Components
 * **Base Case**: Condition to stop recursion.
@@ -10,15 +10,15 @@ To implement recursion, you need to define a function that includes these two co
 
 ## When to Implement Recursion
 * **Natural Recursive Problems**: Problems that can be naturally divided into smaller subproblems, such as:
-  - Factorials
-  - Fibonacci series
+  + Factorials
+  + Fibonacci series
 * **Simpler Code**: When recursion leads to simpler and more readable code compared to iterative solutions.
 
 ## When Not to Implement Recursion
 * **Performance Concerns**: Recursion can lead to high memory usage due to maintaining call stacks. This is especially problematic for deep recursions that could cause stack overflow.
 * **Iterative Alternatives**: When an iterative solution is more efficient and easier to understand. Examples include:
-  - Simple loops for tasks like summing numbers or searching in arrays.
-  - Problems where state needs to be maintained across iterations.
+  + Simple loops for tasks like summing numbers or searching in arrays.
+  + Problems where state needs to be maintained across iterations.
 * **Limited Stack Size**: In environments with constrained resources.
 
 ## Files Description
