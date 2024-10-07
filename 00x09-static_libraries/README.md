@@ -11,7 +11,7 @@
 1. include the header file in your source file.
 2. compile and link. 
 
-## Command to use:
+## Commands to use:
 * **`ar`**:
   - `ar rcs`: Creates a library.
   - `ar t`: Lists the contents of the library.
