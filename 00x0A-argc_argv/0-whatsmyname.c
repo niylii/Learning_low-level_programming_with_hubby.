@@ -3,7 +3,7 @@
 /**
  * main - entry point of the program.
  * @argc : argument count.
- * @argc : argument.
+ * @argv : argument.
  * Return: 0 (success).
  */
 
