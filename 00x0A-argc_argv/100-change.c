@@ -12,8 +12,8 @@ int main(int argc, char *argv[])
 {
 	int i = 0, cents = 0;
 	int change;
-	int coins[] = {25 ,10 ,5 , 2, 1};
-	
+	int coins[] = {25, 10, 5, 2, 1};
+
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	while(i < 5)
+	while (i < 5)
 	{
 		cents += change / coins[i];
 		change %= coins[i];
