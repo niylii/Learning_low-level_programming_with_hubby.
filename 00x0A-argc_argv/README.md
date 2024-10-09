@@ -8,11 +8,11 @@ In C, passing arguments to your program via the command line when you run it is 
 ## Prototypes of `main`
 
 1. **No Arguments** (standard prototype):
- ```c int main(void)```
+ ``` int main(void)```
 - Used when no command-line arguments are needed.
 
 2. **With Arguments** (common prototype):
-```c int main(int argc, char *argv[])```
+``` int main(int argc, char *argv[])```
 - Used when processing command-line arguments, allowing you to access the arguments passed when the program is executed.
 
 ## Unused Variables
@@ -20,8 +20,8 @@ In C, passing arguments to your program via the command line when you run it is 
 To suppress the warnings that the compiler gives regarding unused variables or parameters in a function, you can use either of these two methods:
 
 * **`__attribute__((unused))`**: used in a declaration of a function.
-	void _function(int unused_param attribute((unused)))
-* **`(void)`**: (void)unused_param; 
+   + `void _function(int unused_param attribute((unused)))`
+* **`(void)`**: `(void)unused_param;`; 
 
 ## Files and Their Descriptions
 
