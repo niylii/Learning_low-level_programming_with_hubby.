@@ -19,15 +19,16 @@
 ```plaintext
 Operations
 	├── Traversal
-	│     └──  Forward Traversal
+	│     └──  Forward Traversal : Start from the first node (head) and follow the next
+		 pointers to access each node until the end is reached (null pointer).
 	├── Insertion
-	│     ├── At Head
-	│     ├── At Tail
-	│     └── At Specific Position
+	│     ├── At Head : Add a new node before the first node
+	│     ├── At Tail : Add a new node after the last node.
+	│     └── At Specific Position : Insert a new node at a given index.
 	├── Deletion
-	│     ├── At Head
-	│     ├── At Tail
-	│     └── At Specific Position
+	│     ├── At Head : Remove the first node.
+	│     ├── At Tail : Remove the last node.
+	│     └── At Specific Position : Remove a node at a given index.
 	└── Searching
 	      ├── By Value
 	      └── By Index
@@ -54,18 +55,8 @@ Operations
 - Start with an empty list (no nodes).
 
 #### 3. Insert Nodes
-- **At the Beginning**: Add a new node before the first node.
-- **At the End**: Add a new node after the last node.
-- **At a Specific Position**: Insert a new node at a given index.
-
 #### 4. Traverse the List
-- Start from the first node (head) and follow the next pointers to access each node until the end is reached (null pointer).
-
 #### 5. Delete Nodes
-- **From the Beginning**: Remove the first node.
-- **From the End**: Remove the last node.
-- **From a Specific Position**: Remove a node at a given index.
-
 #### 6. Display the List
 - Print the data in each node from the head to the end.
 
