@@ -52,15 +52,15 @@ The flags used with the `open` system call determine how a file can be accessed:
 ### File Permissions:
 File permissions specify who can read, write, or execute a file. When creating a file with the open system call, you can set permissions using:
 
--`S_IRUSR`: Owner can read. 4
+- `S_IRUSR`: Owner can read. 4
 
--`S_IWUSR`: Owner can write. 2
+- `S_IWUSR`: Owner can write. 2
 
--`S_IRGRP`: Group can read. 4
+- `S_IRGRP`: Group can read. 4
 
--`S_IWGRP`: Group can write. 2
+- `S_IWGRP`: Group can write. 2
 
--`S_IROTH`: Others can read. 2
+- `S_IROTH`: Others can read. 2
 
 | File                      | Description                                                |
 |---------------------------|------------------------------------------------------------|
