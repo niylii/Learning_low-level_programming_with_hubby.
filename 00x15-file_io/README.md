@@ -1,6 +1,7 @@
-#File I/O:
+# File I/O:
 
-##File I/O (Input/Output):
+## File I/O (Input/Output):
+
 refers to the process of reading from and writing to files on a storage device and enables the manipulation of data stored in files.
 
 ## File Descriptors:
@@ -29,13 +30,17 @@ The primary system calls for file operations in C are `open`, `close`, `read`, a
 
 ##### How to Use:
 - **open**: Opens a file and returns its file descriptor.
-  `int fd = open("filename.txt", O_RDONLY);`
+
+ `int fd = open("filename.txt", O_RDONLY);`
 - **close**: Closes a file descriptor.
-  `close(fd);`
+
+`close(fd);`
 - **read**: Reads data from a file into a buffer.
-  `ssize_t bytes_read = read(fd, buffer, sizeof(buffer));`
+
+ `ssize_t bytes_read = read(fd, buffer, sizeof(buffer));`
 - **write**: Writes data from a buffer to a file.
-  `ssize_t bytes_written = write(fd, buffer, bytes_to_write);`
+
+`ssize_t bytes_written = write(fd, buffer, bytes_to_write);`
 
 ### File Status Flags:
 The flags used with the `open` system call determine how a file can be accessed:
@@ -48,9 +53,13 @@ The flags used with the `open` system call determine how a file can be accessed:
 File permissions specify who can read, write, or execute a file. When creating a file with the open system call, you can set permissions using:
 
 `S_IRUSR`: Owner can read. 4
+
 `S_IWUSR`: Owner can write. 2
+
 `S_IRGRP`: Group can read. 4
+
 `S_IWGRP`: Group can write. 2
+
 `S_IROTH`: Others can read. 2
 
 | File                      | Description                                                |
